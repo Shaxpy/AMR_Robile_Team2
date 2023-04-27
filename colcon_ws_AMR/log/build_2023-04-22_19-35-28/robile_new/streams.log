@@ -1,0 +1,37 @@
+[1.820s] Invoking command in '/home/shaxpy/colcon_ws_AMR/src/Robile/robile_demos/robile_new': PYTHONPATH=/home/shaxpy/colcon_ws_AMR/build/robile_new/prefix_override:/home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_new build --build-base /home/shaxpy/colcon_ws_AMR/build/robile_new/build install --record /home/shaxpy/colcon_ws_AMR/build/robile_new/install.log --single-version-externally-managed
+[2.014s] running egg_info
+[2.014s] creating ../../../../build/robile_new/robile_new.egg-info
+[2.015s] writing ../../../../build/robile_new/robile_new.egg-info/PKG-INFO
+[2.015s] writing dependency_links to ../../../../build/robile_new/robile_new.egg-info/dependency_links.txt
+[2.015s] writing entry points to ../../../../build/robile_new/robile_new.egg-info/entry_points.txt
+[2.015s] writing requirements to ../../../../build/robile_new/robile_new.egg-info/requires.txt
+[2.015s] writing top-level names to ../../../../build/robile_new/robile_new.egg-info/top_level.txt
+[2.016s] writing manifest file '../../../../build/robile_new/robile_new.egg-info/SOURCES.txt'
+[2.051s] reading manifest file '../../../../build/robile_new/robile_new.egg-info/SOURCES.txt'
+[2.052s] writing manifest file '../../../../build/robile_new/robile_new.egg-info/SOURCES.txt'
+[2.052s] running build
+[2.052s] running build_py
+[2.052s] creating /home/shaxpy/colcon_ws_AMR/build/robile_new/build
+[2.052s] creating /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib
+[2.052s] creating /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib/robile_new
+[2.052s] copying robile_new/__init__.py -> /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib/robile_new
+[2.052s] copying robile_new/robile_new.py -> /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib/robile_new
+[2.053s] running install
+[2.053s] running install_lib
+[2.054s] creating /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new
+[2.055s] copying /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib/robile_new/__init__.py -> /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new
+[2.055s] copying /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib/robile_new/robile_new.py -> /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new
+[2.055s] byte-compiling /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new/__init__.py to __init__.cpython-38.pyc
+[2.057s] byte-compiling /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new/robile_new.py to robile_new.cpython-38.pyc
+[2.057s] running install_data
+[2.058s] creating /home/shaxpy/colcon_ws_AMR/install/robile_new/share/ament_index
+[2.058s] creating /home/shaxpy/colcon_ws_AMR/install/robile_new/share/ament_index/resource_index
+[2.058s] creating /home/shaxpy/colcon_ws_AMR/install/robile_new/share/ament_index/resource_index/packages
+[2.058s] copying resource/robile_new -> /home/shaxpy/colcon_ws_AMR/install/robile_new/share/ament_index/resource_index/packages
+[2.058s] copying package.xml -> /home/shaxpy/colcon_ws_AMR/install/robile_new/share/robile_new
+[2.058s] running install_egg_info
+[2.060s] Copying ../../../../build/robile_new/robile_new.egg-info to /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new-0.0.0-py3.8.egg-info
+[2.061s] running install_scripts
+[2.084s] Installing motion_publisher script to /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/robile_new
+[2.085s] writing list of installed files to '/home/shaxpy/colcon_ws_AMR/build/robile_new/install.log'
+[2.105s] Invoked command in '/home/shaxpy/colcon_ws_AMR/src/Robile/robile_demos/robile_new' returned '0': PYTHONPATH=/home/shaxpy/colcon_ws_AMR/build/robile_new/prefix_override:/home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_new build --build-base /home/shaxpy/colcon_ws_AMR/build/robile_new/build install --record /home/shaxpy/colcon_ws_AMR/build/robile_new/install.log --single-version-externally-managed

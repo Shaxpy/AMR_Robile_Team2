@@ -1,0 +1,1031 @@
+[0.000000] (-) TimerEvent: {}
+[0.000720] (kelo_tulip) JobQueued: {'identifier': 'kelo_tulip', 'dependencies': OrderedDict()}
+[0.000757] (py_trees_ros) JobQueued: {'identifier': 'py_trees_ros', 'dependencies': OrderedDict()}
+[0.000785] (robile_control_simple) JobQueued: {'identifier': 'robile_control_simple', 'dependencies': OrderedDict()}
+[0.000813] (robile_description) JobQueued: {'identifier': 'robile_description', 'dependencies': OrderedDict()}
+[0.000827] (robile_reach_goal) JobQueued: {'identifier': 'robile_reach_goal', 'dependencies': OrderedDict()}
+[0.000840] (robile_gazebo) JobQueued: {'identifier': 'robile_gazebo', 'dependencies': OrderedDict([('robile_description', '/home/shaxpy/colcon_ws_AMR/install/robile_description')])}
+[0.000856] (robile_description) JobStarted: {'identifier': 'robile_description'}
+[0.014960] (kelo_tulip) JobStarted: {'identifier': 'kelo_tulip'}
+[0.026593] (py_trees_ros) JobStarted: {'identifier': 'py_trees_ros'}
+[0.043190] (robile_control_simple) JobStarted: {'identifier': 'robile_control_simple'}
+[0.054143] (robile_reach_goal) JobStarted: {'identifier': 'robile_reach_goal'}
+[0.066186] (robile_description) JobProgress: {'identifier': 'robile_description', 'progress': 'cmake'}
+[0.066347] (robile_description) Command: {'cmd': ['/usr/bin/cmake', '/home/shaxpy/colcon_ws_AMR/src/robile_description', '-DCMAKE_INSTALL_PREFIX=/home/shaxpy/colcon_ws_AMR/install/robile_description'], 'cwd': '/home/shaxpy/colcon_ws_AMR/build/robile_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'shaxpy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/shaxpy'), ('CONDA_SHLVL', '0'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/shaxpy/colcon_ws_AMR/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5900'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'shaxpy'), ('JOURNAL_STREAM', '8:40832'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '1fc9d40a890748fb8b2a741a899c06c6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/shaxpy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/shaxpy'), ('AMENT_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling'), ('CONDA_PYTHON_EXE', '/home/shaxpy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shaxpy/colcon_ws_AMR/build/robile_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shaxpy/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling')]), 'shell': False}
+[0.069979] (kelo_tulip) JobProgress: {'identifier': 'kelo_tulip', 'progress': 'cmake'}
+[0.072148] (kelo_tulip) Command: {'cmd': ['/usr/bin/cmake', '/home/shaxpy/colcon_ws_AMR/src/kelo_tulip', '-DCMAKE_INSTALL_PREFIX=/home/shaxpy/colcon_ws_AMR/install/kelo_tulip'], 'cwd': '/home/shaxpy/colcon_ws_AMR/build/kelo_tulip', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'shaxpy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/shaxpy'), ('CONDA_SHLVL', '0'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/shaxpy/colcon_ws_AMR/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5900'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'shaxpy'), ('JOURNAL_STREAM', '8:40832'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '1fc9d40a890748fb8b2a741a899c06c6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/shaxpy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/shaxpy'), ('AMENT_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling'), ('CONDA_PYTHON_EXE', '/home/shaxpy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shaxpy/colcon_ws_AMR/build/kelo_tulip'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shaxpy/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling')]), 'shell': False}
+[0.099764] (-) TimerEvent: {}
+[0.200076] (-) TimerEvent: {}
+[0.300638] (-) TimerEvent: {}
+[0.401007] (-) TimerEvent: {}
+[0.501353] (-) TimerEvent: {}
+[0.601710] (-) TimerEvent: {}
+[0.702116] (-) TimerEvent: {}
+[0.745215] (robile_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.745940] (robile_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.746029] (robile_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.746088] (robile_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.746142] (robile_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.746193] (robile_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.746245] (robile_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.746299] (robile_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.746349] (robile_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.746400] (robile_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.746450] (robile_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.746500] (robile_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.746550] (robile_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.746599] (robile_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.746654] (robile_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.746974] (robile_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[0.747338] (robile_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.747414] (robile_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.747519] (robile_description) StdoutLine: {'line': b'-- Build files have been written to: /home/shaxpy/colcon_ws_AMR/build/robile_description\n'}
+[0.747576] (kelo_tulip) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.747897] (kelo_tulip) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.748198] (kelo_tulip) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.748396] (kelo_tulip) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.748471] (kelo_tulip) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.748614] (kelo_tulip) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.748684] (kelo_tulip) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.748738] (kelo_tulip) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.749322] (kelo_tulip) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.750174] (kelo_tulip) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.750976] (kelo_tulip) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.751144] (kelo_tulip) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.751211] (kelo_tulip) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.751279] (kelo_tulip) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.751334] (kelo_tulip) StdoutLine: {'line': b'-- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.751386] (kelo_tulip) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[0.751437] (kelo_tulip) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.3.0 (/opt/ros/rolling/share/ament_index_cpp/cmake)\n'}
+[0.751485] (kelo_tulip) StdoutLine: {'line': b'-- Found rclcpp: 15.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.751535] (kelo_tulip) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.751827] (kelo_tulip) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.751885] (robile_description) CommandEnded: {'returncode': 0}
+[0.752234] (robile_description) JobProgress: {'identifier': 'robile_description', 'progress': 'build'}
+[0.752258] (robile_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shaxpy/colcon_ws_AMR/build/robile_description', '--', '-j12', '-l12'], 'cwd': '/home/shaxpy/colcon_ws_AMR/build/robile_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'shaxpy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/shaxpy'), ('CONDA_SHLVL', '0'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/shaxpy/colcon_ws_AMR/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5900'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'shaxpy'), ('JOURNAL_STREAM', '8:40832'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '1fc9d40a890748fb8b2a741a899c06c6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/shaxpy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/shaxpy'), ('AMENT_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling'), ('CONDA_PYTHON_EXE', '/home/shaxpy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shaxpy/colcon_ws_AMR/build/robile_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shaxpy/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling')]), 'shell': False}
+[0.778030] (kelo_tulip) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.784446] (robile_description) CommandEnded: {'returncode': 0}
+[0.802241] (-) TimerEvent: {}
+[0.803713] (robile_description) JobProgress: {'identifier': 'robile_description', 'progress': 'install'}
+[0.813640] (robile_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shaxpy/colcon_ws_AMR/build/robile_description'], 'cwd': '/home/shaxpy/colcon_ws_AMR/build/robile_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'shaxpy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/shaxpy'), ('CONDA_SHLVL', '0'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/shaxpy/colcon_ws_AMR/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5900'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'shaxpy'), ('JOURNAL_STREAM', '8:40832'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '1fc9d40a890748fb8b2a741a899c06c6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/shaxpy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/shaxpy'), ('AMENT_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling'), ('CONDA_PYTHON_EXE', '/home/shaxpy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shaxpy/colcon_ws_AMR/build/robile_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shaxpy/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling')]), 'shell': False}
+[0.821131] (robile_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.821432] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes\n'}
+[0.821523] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/robile_brick_housing\n'}
+[0.821601] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/robile_brick_housing/general_brick_housing.dae\n'}
+[0.823330] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_red.dae\n'}
+[0.823622] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_yellow.dae\n'}
+[0.823915] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid.dae\n'}
+[0.824355] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_blue.dae\n'}
+[0.824639] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/robile_brick_housing/wheeled_brick_housing.dae\n'}
+[0.826398] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_green.dae\n'}
+[0.826717] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/kelo_drive\n'}
+[0.826978] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/kelo_drive/kelo_drive_wheel.dae\n'}
+[0.827285] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/kelo_drive/kelo_drive_base.dae\n'}
+[0.827632] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/passive_caster_wheel\n'}
+[0.827741] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/passive_caster_wheel/pivot.dae\n'}
+[0.828646] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/passive_caster_wheel/wheel.dae\n'}
+[0.829061] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/sensors\n'}
+[0.829224] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/sensors/hokuyo.dae\n'}
+[0.829784] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/sensors/sick-lms1xx.dae\n'}
+[0.830562] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//meshes/sensors/hokuyo_convex.dae\n'}
+[0.830735] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//robots\n'}
+[0.830900] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//robots/6_wheel_config.urdf.xacro\n'}
+[0.831012] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//robots/4_wheel_config.urdf.xacro\n'}
+[0.831198] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//robots/2_wheel_config.urdf.xacro\n'}
+[0.831341] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//robots/robile3_config.urdf.xacro\n'}
+[0.831508] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf\n'}
+[0.831613] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/robile_bricks\n'}
+[0.831710] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/robile_bricks/robile_slave_battery_brick.urdf.xacro\n'}
+[0.831842] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/robile_bricks/robile_passive_wheel_brick.urdf.xacro\n'}
+[0.831972] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/robile_bricks/robile_cpu_brick.urdf.xacro\n'}
+[0.832153] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/robile_bricks/robile_master_battery_brick.urdf.xacro\n'}
+[0.832328] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/robile_bricks/robile_empty_brick.urdf.xacro\n'}
+[0.832501] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/robile_bricks/robile_active_wheel_brick.urdf.xacro\n'}
+[0.832655] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/sensors\n'}
+[0.832739] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/sensors/camera_front.urdf.xacro\n'}
+[0.832930] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/sensors/sick_lms1xx.urdf.xacro\n'}
+[0.833118] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/sensors/hokuyo_urg04_laser.urdf.xacro\n'}
+[0.833310] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/sensors/camera_front.gazebo.xacro\n'}
+[0.833497] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/sensors/sick_lms1xx_mount.urdf.xacro\n'}
+[0.833692] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/sensors/hokuyo_urg04_laser.gazebo.xacro\n'}
+[0.833850] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/base_macros\n'}
+[0.833954] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/base_macros/common.xacro\n'}
+[0.834128] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/base_macros/brick_housing.urdf.xacro\n'}
+[0.834299] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/base_macros/materials.urdf.xacro\n'}
+[0.834474] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/base_macros/kelo_drive_wheel.urdf.xacro\n'}
+[0.834639] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/base_macros/kelo_drive.urdf.xacro\n'}
+[0.834829] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//urdf/base_macros/passive_caster_wheel.urdf.xacro\n'}
+[0.835035] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//gazebo\n'}
+[0.835165] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//gazebo/gazebo_robile_laserscanner_camera.xacro\n'}
+[0.835288] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//gazebo/gazebo_ros_planar_move.xacro\n'}
+[0.835442] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//gazebo/gazebo_robile_laser_scanner.xacro\n'}
+[0.835600] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//gazebo/gazebo_ros_control.xacro\n'}
+[0.835768] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description//gazebo/gazebo_robile.xacro\n'}
+[0.836103] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/ament_index/resource_index/package_run_dependencies/robile_description\n'}
+[0.836321] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/ament_index/resource_index/parent_prefix_path/robile_description\n'}
+[0.836526] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/environment/ament_prefix_path.sh\n'}
+[0.836661] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/environment/ament_prefix_path.dsv\n'}
+[0.836820] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/environment/path.sh\n'}
+[0.836996] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/environment/path.dsv\n'}
+[0.837119] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/local_setup.bash\n'}
+[0.837254] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/local_setup.sh\n'}
+[0.837396] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/local_setup.zsh\n'}
+[0.837539] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/local_setup.dsv\n'}
+[0.837676] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/package.dsv\n'}
+[0.837884] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/ament_index/resource_index/packages/robile_description\n'}
+[0.838036] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/cmake/robile_descriptionConfig.cmake\n'}
+[0.838138] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/cmake/robile_descriptionConfig-version.cmake\n'}
+[0.838279] (robile_description) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_description/share/robile_description/package.xml\n'}
+[0.840033] (robile_description) CommandEnded: {'returncode': 0}
+[0.852689] (kelo_tulip) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 5.1.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[0.853694] (kelo_tulip) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.1.2 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.877409] (kelo_tulip) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.902333] (-) TimerEvent: {}
+[0.907781] (robile_description) JobEnded: {'identifier': 'robile_description', 'rc': 0}
+[0.909546] (robile_gazebo) JobStarted: {'identifier': 'robile_gazebo'}
+[0.922513] (robile_gazebo) JobProgress: {'identifier': 'robile_gazebo', 'progress': 'cmake'}
+[0.923005] (robile_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/shaxpy/colcon_ws_AMR/src/robile_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/shaxpy/colcon_ws_AMR/install/robile_gazebo'], 'cwd': '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'shaxpy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/shaxpy'), ('CONDA_SHLVL', '0'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/shaxpy/colcon_ws_AMR/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5900'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'shaxpy'), ('JOURNAL_STREAM', '8:40832'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '1fc9d40a890748fb8b2a741a899c06c6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/shaxpy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/shaxpy'), ('AMENT_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install/robile_description:/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling'), ('CONDA_PYTHON_EXE', '/home/shaxpy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shaxpy/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install/robile_description:/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling')]), 'shell': False}
+[0.978058] (robile_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.002441] (-) TimerEvent: {}
+[1.022641] (robile_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.027664] (robile_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.067088] (kelo_tulip) StdoutLine: {'line': b'-- Found sensor_msgs: 4.0.0 (/opt/ros/rolling/share/sensor_msgs/cmake)\n'}
+[1.087170] (robile_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.088146] (robile_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.102530] (-) TimerEvent: {}
+[1.149897] (robile_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.160284] (robile_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.160612] (robile_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.162655] (robile_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.201786] (kelo_tulip) StdoutLine: {'line': b'-- Found nav_msgs: 4.0.0 (/opt/ros/rolling/share/nav_msgs/cmake)\n'}
+[1.202616] (-) TimerEvent: {}
+[1.223386] (robile_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.224274] (robile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.291421] (robile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.301966] (robile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.302350] (robile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.302673] (-) TimerEvent: {}
+[1.304287] (robile_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[1.316855] (kelo_tulip) StdoutLine: {'line': b'-- Found tf2: 0.21.0 (/opt/ros/rolling/share/tf2/cmake)\n'}
+[1.330523] (kelo_tulip) StdoutLine: {'line': b'-- Found tf2_ros: 0.21.0 (/opt/ros/rolling/share/tf2_ros/cmake)\n'}
+[1.402667] (py_trees_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_trees_ros', 'build', '--build-base', '/home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build', 'install', '--record', '/home/shaxpy/colcon_ws_AMR/build/py_trees_ros/install.log', '--single-version-externally-managed'], 'cwd': '/home/shaxpy/colcon_ws_AMR/src/py_trees_ros', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'shaxpy', 'LC_TIME': 'de_DE.UTF-8', 'SSH_AGENT_PID': '2062', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib', 'HOME': '/home/shaxpy', 'CONDA_SHLVL': '0', 'MOZ_ENABLE_WAYLAND': '1', 'OLDPWD': '/home/shaxpy/colcon_ws_AMR/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1919', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5900', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'shaxpy', 'JOURNAL_STREAM': '8:40832', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123', 'GDM_LANG': 'en_US', 'INVOCATION_ID': '1fc9d40a890748fb8b2a741a899c06c6', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/shaxpy/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/shaxpy', 'AMENT_PREFIX_PATH': '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling', 'CONDA_PYTHON_EXE': '/home/shaxpy/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaxpy/colcon_ws_AMR/build/py_trees_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/shaxpy/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shaxpy/colcon_ws_AMR/build/py_trees_ros/prefix_override:/home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages:/opt/ros/rolling/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description'}, 'shell': False}
+[1.404844] (-) TimerEvent: {}
+[1.426472] (robile_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[1.459855] (robile_control_simple) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/robile_control_simple', 'build', '--build-base', '/home/shaxpy/colcon_ws_AMR/build/robile_control_simple/build', 'install', '--record', '/home/shaxpy/colcon_ws_AMR/build/robile_control_simple/install.log', '--single-version-externally-managed'], 'cwd': '/home/shaxpy/colcon_ws_AMR/src/Robile/robile_demos/robile_control_simple', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'shaxpy', 'LC_TIME': 'de_DE.UTF-8', 'SSH_AGENT_PID': '2062', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib', 'HOME': '/home/shaxpy', 'CONDA_SHLVL': '0', 'MOZ_ENABLE_WAYLAND': '1', 'OLDPWD': '/home/shaxpy/colcon_ws_AMR/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1919', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5900', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'shaxpy', 'JOURNAL_STREAM': '8:40832', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123', 'GDM_LANG': 'en_US', 'INVOCATION_ID': '1fc9d40a890748fb8b2a741a899c06c6', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/shaxpy/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/shaxpy', 'AMENT_PREFIX_PATH': '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling', 'CONDA_PYTHON_EXE': '/home/shaxpy/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaxpy/colcon_ws_AMR/build/robile_control_simple', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/shaxpy/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shaxpy/colcon_ws_AMR/build/robile_control_simple/prefix_override:/home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/python3.8/site-packages:/opt/ros/rolling/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description'}, 'shell': False}
+[1.465188] (robile_reach_goal) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/robile_reach_goal', 'build', '--build-base', '/home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build', 'install', '--record', '/home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/install.log', '--single-version-externally-managed'], 'cwd': '/home/shaxpy/colcon_ws_AMR/src/Robile/robile_demos/robile_reach_goal', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'shaxpy', 'LC_TIME': 'de_DE.UTF-8', 'SSH_AGENT_PID': '2062', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib', 'HOME': '/home/shaxpy', 'CONDA_SHLVL': '0', 'MOZ_ENABLE_WAYLAND': '1', 'OLDPWD': '/home/shaxpy/colcon_ws_AMR/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1919', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5900', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'shaxpy', 'JOURNAL_STREAM': '8:40832', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123', 'GDM_LANG': 'en_US', 'INVOCATION_ID': '1fc9d40a890748fb8b2a741a899c06c6', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/shaxpy/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/shaxpy', 'AMENT_PREFIX_PATH': '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling', 'CONDA_PYTHON_EXE': '/home/shaxpy/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaxpy/colcon_ws_AMR/build/robile_reach_goal', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/shaxpy/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/prefix_override:/home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages:/opt/ros/rolling/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description'}, 'shell': False}
+[1.504950] (-) TimerEvent: {}
+[1.507522] (robile_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 15.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[1.571004] (robile_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.579444] (robile_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[1.605045] (-) TimerEvent: {}
+[1.615560] (py_trees_ros) StdoutLine: {'line': b'running egg_info\n'}
+[1.616133] (py_trees_ros) StdoutLine: {'line': b'creating ../../build/py_trees_ros/py_trees_ros.egg-info\n'}
+[1.616333] (py_trees_ros) StdoutLine: {'line': b'writing ../../build/py_trees_ros/py_trees_ros.egg-info/PKG-INFO\n'}
+[1.616539] (py_trees_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/py_trees_ros/py_trees_ros.egg-info/dependency_links.txt\n'}
+[1.616754] (py_trees_ros) StdoutLine: {'line': b'writing entry points to ../../build/py_trees_ros/py_trees_ros.egg-info/entry_points.txt\n'}
+[1.616904] (py_trees_ros) StdoutLine: {'line': b'writing top-level names to ../../build/py_trees_ros/py_trees_ros.egg-info/top_level.txt\n'}
+[1.625589] (py_trees_ros) StdoutLine: {'line': b"writing manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'\n"}
+[1.634668] (robile_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.657902] (py_trees_ros) StdoutLine: {'line': b"reading manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'\n"}
+[1.658550] (py_trees_ros) StdoutLine: {'line': b"writing manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'\n"}
+[1.658733] (py_trees_ros) StdoutLine: {'line': b'running build\n'}
+[1.658859] (py_trees_ros) StdoutLine: {'line': b'running build_py\n'}
+[1.659038] (py_trees_ros) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build\n'}
+[1.659143] (py_trees_ros) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib\n'}
+[1.659217] (py_trees_ros) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.659291] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/conversions.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.659382] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/visitors.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.659480] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/transforms.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.659572] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/battery.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.659742] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/__init__.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.659896] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/actions.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.660047] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/trees.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.660362] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/blackboard.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.660642] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/subscribers.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.660849] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/utilities.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.661047] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/version.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.661206] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/action_clients.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.661403] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/publishers.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.661575] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/exceptions.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[1.661892] (py_trees_ros) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/programs\n'}
+[1.662070] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/programs/blackboard_watcher.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/programs\n'}
+[1.662179] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/programs/__init__.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/programs\n'}
+[1.662322] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/programs/echo.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/programs\n'}
+[1.662478] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/programs/tree_watcher.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/programs\n'}
+[1.662755] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/programs/multi_talker.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/programs\n'}
+[1.663052] (py_trees_ros) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/mock\n'}
+[1.663195] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/mock/__init__.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/mock\n'}
+[1.663312] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/mock/actions.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/mock\n'}
+[1.663554] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/mock/dock.py -> /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/mock\n'}
+[1.664227] (py_trees_ros) StdoutLine: {'line': b'running install\n'}
+[1.665529] (py_trees_ros) StdoutLine: {'line': b'running install_lib\n'}
+[1.666829] (py_trees_ros) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.667023] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/conversions.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.667198] (py_trees_ros) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/programs\n'}
+[1.667308] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/programs/blackboard_watcher.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/programs\n'}
+[1.667432] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/programs/__init__.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/programs\n'}
+[1.667544] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/programs/echo.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/programs\n'}
+[1.667703] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/programs/tree_watcher.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/programs\n'}
+[1.667873] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/programs/multi_talker.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/programs\n'}
+[1.668024] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/visitors.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.668168] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/transforms.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.668311] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/battery.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.668450] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/__init__.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.668608] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/actions.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.668754] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/trees.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.668872] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/blackboard.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.668980] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/subscribers.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.669080] (py_trees_ros) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/mock\n'}
+[1.669188] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/mock/__init__.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/mock\n'}
+[1.669309] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/mock/actions.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/mock\n'}
+[1.669430] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/mock/dock.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/mock\n'}
+[1.669542] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/utilities.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.669659] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/version.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.669779] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/action_clients.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.669878] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/publishers.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.669975] (py_trees_ros) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build/lib/py_trees_ros/exceptions.py -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros\n'}
+[1.670179] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/conversions.py to conversions.cpython-38.pyc\n'}
+[1.672788] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/programs/blackboard_watcher.py to blackboard_watcher.cpython-38.pyc\n'}
+[1.673645] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/programs/__init__.py to __init__.cpython-38.pyc\n'}
+[1.673833] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/programs/echo.py to echo.cpython-38.pyc\n'}
+[1.674405] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/programs/tree_watcher.py to tree_watcher.cpython-38.pyc\n'}
+[1.675255] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/programs/multi_talker.py to multi_talker.cpython-38.pyc\n'}
+[1.675594] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/visitors.py to visitors.cpython-38.pyc\n'}
+[1.676026] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/transforms.py to transforms.cpython-38.pyc\n'}
+[1.676703] (robile_control_simple) StdoutLine: {'line': b'running egg_info\n'}
+[1.676861] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/battery.py to battery.cpython-38.pyc\n'}
+[1.677042] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/__init__.py to __init__.cpython-38.pyc\n'}
+[1.677195] (robile_control_simple) StdoutLine: {'line': b'creating ../../../../build/robile_control_simple/robile_control_simple.egg-info\n'}
+[1.677349] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/actions.py to actions.cpython-38.pyc\n'}
+[1.677529] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/trees.py to trees.cpython-38.pyc\n'}
+[1.677644] (robile_control_simple) StdoutLine: {'line': b'writing ../../../../build/robile_control_simple/robile_control_simple.egg-info/PKG-INFO\n'}
+[1.677799] (robile_control_simple) StdoutLine: {'line': b'writing dependency_links to ../../../../build/robile_control_simple/robile_control_simple.egg-info/dependency_links.txt\n'}
+[1.677921] (robile_control_simple) StdoutLine: {'line': b'writing entry points to ../../../../build/robile_control_simple/robile_control_simple.egg-info/entry_points.txt\n'}
+[1.678026] (robile_control_simple) StdoutLine: {'line': b'writing requirements to ../../../../build/robile_control_simple/robile_control_simple.egg-info/requires.txt\n'}
+[1.678114] (robile_control_simple) StdoutLine: {'line': b'writing top-level names to ../../../../build/robile_control_simple/robile_control_simple.egg-info/top_level.txt\n'}
+[1.678853] (robile_control_simple) StdoutLine: {'line': b"writing manifest file '../../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'\n"}
+[1.681301] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/blackboard.py to blackboard.cpython-38.pyc\n'}
+[1.682881] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/subscribers.py to subscribers.cpython-38.pyc\n'}
+[1.683213] (robile_reach_goal) StdoutLine: {'line': b'running egg_info\n'}
+[1.683758] (robile_reach_goal) StdoutLine: {'line': b'creating ../../../../build/robile_reach_goal/robile_reach_goal.egg-info\n'}
+[1.683960] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/mock/__init__.py to __init__.cpython-38.pyc\n'}
+[1.684133] (robile_reach_goal) StdoutLine: {'line': b'writing ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/PKG-INFO\n'}
+[1.684294] (robile_reach_goal) StdoutLine: {'line': b'writing dependency_links to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/dependency_links.txt\n'}
+[1.684488] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/mock/actions.py to actions.cpython-38.pyc\n'}
+[1.684630] (robile_reach_goal) StdoutLine: {'line': b'writing entry points to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/entry_points.txt\n'}
+[1.684761] (robile_reach_goal) StdoutLine: {'line': b'writing requirements to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/requires.txt\n'}
+[1.684882] (robile_reach_goal) StdoutLine: {'line': b'writing top-level names to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/top_level.txt\n'}
+[1.684983] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/mock/dock.py to dock.cpython-38.pyc\n'}
+[1.685110] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/utilities.py to utilities.cpython-38.pyc\n'}
+[1.685818] (robile_reach_goal) StdoutLine: {'line': b"writing manifest file '../../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'\n"}
+[1.686070] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/version.py to version.cpython-38.pyc\n'}
+[1.686239] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/action_clients.py to action_clients.cpython-38.pyc\n'}
+[1.687296] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/publishers.py to publishers.cpython-38.pyc\n'}
+[1.687666] (py_trees_ros) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros/exceptions.py to exceptions.cpython-38.pyc\n'}
+[1.687858] (py_trees_ros) StdoutLine: {'line': b'running install_data\n'}
+[1.688437] (py_trees_ros) StdoutLine: {'line': b'copying package.xml -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/share/py_trees_ros\n'}
+[1.688582] (py_trees_ros) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/share/ament_index\n'}
+[1.688705] (py_trees_ros) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/share/ament_index/resource_index\n'}
+[1.688835] (py_trees_ros) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/share/ament_index/resource_index/packages\n'}
+[1.688923] (py_trees_ros) StdoutLine: {'line': b'copying resources/py_trees_ros -> /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/share/ament_index/resource_index/packages\n'}
+[1.689009] (py_trees_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.689922] (py_trees_ros) StdoutLine: {'line': b'Copying ../../build/py_trees_ros/py_trees_ros.egg-info to /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros-2.2.2-py3.8.egg-info\n'}
+[1.690473] (py_trees_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[1.704883] (py_trees_ros) StdoutLine: {'line': b'Installing py-trees-blackboard-watcher script to /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/bin\n'}
+[1.705127] (-) TimerEvent: {}
+[1.705291] (py_trees_ros) StdoutLine: {'line': b'Installing py-trees-tree-watcher script to /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/bin\n'}
+[1.705538] (py_trees_ros) StdoutLine: {'line': b"writing list of installed files to '/home/shaxpy/colcon_ws_AMR/build/py_trees_ros/install.log'\n"}
+[1.708249] (robile_control_simple) StdoutLine: {'line': b"reading manifest file '../../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'\n"}
+[1.708833] (robile_control_simple) StdoutLine: {'line': b"writing manifest file '../../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'\n"}
+[1.709013] (robile_control_simple) StdoutLine: {'line': b'running build\n'}
+[1.709225] (robile_control_simple) StdoutLine: {'line': b'running build_py\n'}
+[1.709369] (robile_control_simple) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/build/robile_control_simple/build\n'}
+[1.709489] (robile_control_simple) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/build/robile_control_simple/build/lib\n'}
+[1.709585] (robile_control_simple) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/build/robile_control_simple/build/lib/robile_control_simple\n'}
+[1.709674] (robile_control_simple) StdoutLine: {'line': b'copying robile_control_simple/robile_control_simple.py -> /home/shaxpy/colcon_ws_AMR/build/robile_control_simple/build/lib/robile_control_simple\n'}
+[1.709766] (robile_control_simple) StdoutLine: {'line': b'copying robile_control_simple/__init__.py -> /home/shaxpy/colcon_ws_AMR/build/robile_control_simple/build/lib/robile_control_simple\n'}
+[1.709868] (robile_control_simple) StdoutLine: {'line': b'running install\n'}
+[1.710261] (robile_control_simple) StdoutLine: {'line': b'running install_lib\n'}
+[1.711143] (robile_control_simple) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/python3.8/site-packages/robile_control_simple\n'}
+[1.711328] (robile_control_simple) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/robile_control_simple/build/lib/robile_control_simple/robile_control_simple.py -> /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/python3.8/site-packages/robile_control_simple\n'}
+[1.711448] (robile_control_simple) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/robile_control_simple/build/lib/robile_control_simple/__init__.py -> /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/python3.8/site-packages/robile_control_simple\n'}
+[1.711709] (robile_control_simple) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/python3.8/site-packages/robile_control_simple/robile_control_simple.py to robile_control_simple.cpython-38.pyc\n'}
+[1.713284] (robile_control_simple) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/python3.8/site-packages/robile_control_simple/__init__.py to __init__.cpython-38.pyc\n'}
+[1.713457] (robile_control_simple) StdoutLine: {'line': b'running install_data\n'}
+[1.714055] (robile_control_simple) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/share/ament_index\n'}
+[1.714282] (robile_control_simple) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/share/ament_index/resource_index\n'}
+[1.714417] (robile_control_simple) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/share/ament_index/resource_index/packages\n'}
+[1.714522] (robile_control_simple) StdoutLine: {'line': b'copying resource/robile_control_simple -> /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/share/ament_index/resource_index/packages\n'}
+[1.714599] (robile_control_simple) StdoutLine: {'line': b'copying package.xml -> /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/share/robile_control_simple\n'}
+[1.714695] (robile_control_simple) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.716108] (robile_control_simple) StdoutLine: {'line': b'Copying ../../../../build/robile_control_simple/robile_control_simple.egg-info to /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/python3.8/site-packages/robile_control_simple-0.0.0-py3.8.egg-info\n'}
+[1.716631] (robile_reach_goal) StdoutLine: {'line': b"reading manifest file '../../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'\n"}
+[1.716878] (robile_control_simple) StdoutLine: {'line': b'running install_scripts\n'}
+[1.717236] (robile_reach_goal) StdoutLine: {'line': b"writing manifest file '../../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'\n"}
+[1.717373] (robile_reach_goal) StdoutLine: {'line': b'running build\n'}
+[1.717460] (robile_reach_goal) StdoutLine: {'line': b'running build_py\n'}
+[1.717576] (robile_reach_goal) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build\n'}
+[1.717654] (robile_reach_goal) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build/lib\n'}
+[1.717736] (robile_reach_goal) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build/lib/robile_reach_goal\n'}
+[1.717850] (robile_reach_goal) StdoutLine: {'line': b'copying robile_reach_goal/robile_reach_goal.py -> /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build/lib/robile_reach_goal\n'}
+[1.717963] (robile_reach_goal) StdoutLine: {'line': b'copying robile_reach_goal/__init__.py -> /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build/lib/robile_reach_goal\n'}
+[1.718046] (robile_reach_goal) StdoutLine: {'line': b'running install\n'}
+[1.718590] (robile_reach_goal) StdoutLine: {'line': b'running install_lib\n'}
+[1.719411] (robile_reach_goal) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages/robile_reach_goal\n'}
+[1.719542] (robile_reach_goal) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build/lib/robile_reach_goal/robile_reach_goal.py -> /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages/robile_reach_goal\n'}
+[1.719675] (robile_reach_goal) StdoutLine: {'line': b'copying /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build/lib/robile_reach_goal/__init__.py -> /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages/robile_reach_goal\n'}
+[1.719901] (robile_reach_goal) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages/robile_reach_goal/robile_reach_goal.py to robile_reach_goal.cpython-38.pyc\n'}
+[1.721791] (robile_reach_goal) StdoutLine: {'line': b'byte-compiling /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages/robile_reach_goal/__init__.py to __init__.cpython-38.pyc\n'}
+[1.721966] (robile_reach_goal) StdoutLine: {'line': b'running install_data\n'}
+[1.722596] (robile_reach_goal) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/share/ament_index\n'}
+[1.722804] (robile_reach_goal) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/share/ament_index/resource_index\n'}
+[1.722987] (robile_reach_goal) StdoutLine: {'line': b'creating /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/share/ament_index/resource_index/packages\n'}
+[1.723072] (robile_reach_goal) StdoutLine: {'line': b'copying resource/robile_reach_goal -> /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/share/ament_index/resource_index/packages\n'}
+[1.723156] (robile_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 5.1.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[1.723266] (robile_reach_goal) StdoutLine: {'line': b'copying package.xml -> /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/share/robile_reach_goal\n'}
+[1.723360] (robile_reach_goal) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.724519] (robile_reach_goal) StdoutLine: {'line': b'Copying ../../../../build/robile_reach_goal/robile_reach_goal.egg-info to /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages/robile_reach_goal-0.0.0-py3.8.egg-info\n'}
+[1.725212] (robile_reach_goal) StdoutLine: {'line': b'running install_scripts\n'}
+[1.726316] (robile_gazebo) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.1.2 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.733136] (py_trees_ros) CommandEnded: {'returncode': 0}
+[1.733895] (robile_control_simple) StdoutLine: {'line': b'Installing circular_motion_publisher script to /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/robile_control_simple\n'}
+[1.734094] (robile_control_simple) StdoutLine: {'line': b"writing list of installed files to '/home/shaxpy/colcon_ws_AMR/build/robile_control_simple/install.log'\n"}
+[1.742030] (robile_reach_goal) StdoutLine: {'line': b'Installing robile_reach_goal script to /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/robile_reach_goal\n'}
+[1.742448] (robile_reach_goal) StdoutLine: {'line': b"writing list of installed files to '/home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/install.log'\n"}
+[1.751540] (py_trees_ros) JobEnded: {'identifier': 'py_trees_ros', 'rc': 0}
+[1.758110] (robile_control_simple) CommandEnded: {'returncode': 0}
+[1.758840] (robile_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.767616] (robile_control_simple) JobEnded: {'identifier': 'robile_control_simple', 'rc': 0}
+[1.771961] (robile_reach_goal) CommandEnded: {'returncode': 0}
+[1.780350] (robile_reach_goal) JobEnded: {'identifier': 'robile_reach_goal', 'rc': 0}
+[1.805240] (-) TimerEvent: {}
+[1.830774] (kelo_tulip) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.21.0 (/opt/ros/rolling/share/tf2_geometry_msgs/cmake)\n'}
+[1.838431] (kelo_tulip) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/rolling/share/eigen3_cmake_module/cmake)\n'}
+[1.841329] (kelo_tulip) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[1.894750] (robile_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.896175] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.905338] (-) TimerEvent: {}
+[1.909179] (robile_gazebo) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[2.005510] (-) TimerEvent: {}
+[2.010931] (robile_gazebo) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[2.060505] (robile_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[2.105613] (-) TimerEvent: {}
+[2.116634] (kelo_tulip) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[2.117268] (robile_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[2.136880] (robile_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.174351] (kelo_tulip) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.205733] (-) TimerEvent: {}
+[2.220691] (kelo_tulip) StdoutLine: {'line': b'-- Generating done\n'}
+[2.222012] (kelo_tulip) StdoutLine: {'line': b'-- Build files have been written to: /home/shaxpy/colcon_ws_AMR/build/kelo_tulip\n'}
+[2.229814] (kelo_tulip) CommandEnded: {'returncode': 0}
+[2.230840] (kelo_tulip) JobProgress: {'identifier': 'kelo_tulip', 'progress': 'build'}
+[2.231393] (kelo_tulip) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shaxpy/colcon_ws_AMR/build/kelo_tulip', '--', '-j12', '-l12'], 'cwd': '/home/shaxpy/colcon_ws_AMR/build/kelo_tulip', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'shaxpy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/shaxpy'), ('CONDA_SHLVL', '0'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/shaxpy/colcon_ws_AMR/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5900'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'shaxpy'), ('JOURNAL_STREAM', '8:40832'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '1fc9d40a890748fb8b2a741a899c06c6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/shaxpy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/shaxpy'), ('AMENT_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling'), ('CONDA_PYTHON_EXE', '/home/shaxpy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shaxpy/colcon_ws_AMR/build/kelo_tulip'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shaxpy/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling')]), 'shell': False}
+[2.273251] (kelo_tulip) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target soem\x1b[0m\n'}
+[2.273556] (kelo_tulip) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tulip_velocity_controller\x1b[0m\n'}
+[2.282258] (kelo_tulip) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/tulip_velocity_controller.dir/src/VelocityPlatformController.cpp.o\x1b[0m\n'}
+[2.282462] (kelo_tulip) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/tulip_velocity_controller.dir/src/Utils.cpp.o\x1b[0m\n'}
+[2.291070] (kelo_tulip) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatcoe.c.o\x1b[0m\n'}
+[2.291315] (kelo_tulip) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatprint.c.o\x1b[0m\n'}
+[2.291408] (kelo_tulip) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatbase.c.o\x1b[0m\n'}
+[2.292216] (kelo_tulip) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object src/soem/CMakeFiles/soem.dir/osal/linux/osal.c.o\x1b[0m\n'}
+[2.292373] (kelo_tulip) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatmain.c.o\x1b[0m\n'}
+[2.292816] (kelo_tulip) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatfoe.c.o\x1b[0m\n'}
+[2.293262] (kelo_tulip) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatdc.c.o\x1b[0m\n'}
+[2.293595] (kelo_tulip) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatconfig.c.o\x1b[0m\n'}
+[2.294369] (kelo_tulip) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object src/soem/CMakeFiles/soem.dir/oshw/linux/nicdrv.c.o\x1b[0m\n'}
+[2.302912] (kelo_tulip) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatsoe.c.o\x1b[0m\n'}
+[2.306814] (-) TimerEvent: {}
+[2.316002] (kelo_tulip) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/ethercat.h:22\x1b[m\x1b[K,\n'}
+[2.316317] (kelo_tulip) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/ethercatmain.c:22\x1b[m\x1b[K:\n'}
+[2.316492] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h:166:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.316645] (kelo_tulip) StderrLine: {'line': b'  166 |    uint8 \x1b[01;35m\x1b[Kdata\x1b[m\x1b[K[0];\n'}
+[2.316793] (kelo_tulip) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.318421] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/ethercatmain.c:323:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C does not allow extra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 outside of a function [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.318654] (kelo_tulip) StderrLine: {'line': b'  323 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.318866] (kelo_tulip) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.320785] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/osal/linux/osal.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kosal_thread_create\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.320975] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/osal/linux/osal.c:111:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids passing argument 3 of \xe2\x80\x98\x1b[01m\x1b[Kpthread_create\x1b[m\x1b[K\xe2\x80\x99 between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.321097] (kelo_tulip) StderrLine: {'line': b'  111 |    ret = pthread_create(threadp, &attr, \x1b[01;35m\x1b[Kfunc\x1b[m\x1b[K, param);\n'}
+[2.321205] (kelo_tulip) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.321433] (kelo_tulip) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h:20\x1b[m\x1b[K,\n'}
+[2.321562] (kelo_tulip) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/osal/osal.h:14\x1b[m\x1b[K,\n'}
+[2.321670] (kelo_tulip) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/osal/linux/osal.c:11\x1b[m\x1b[K:\n'}
+[2.321774] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pthread.h:200:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[Kvoid * (*)(void *)\x1b[m\x1b[K\xe2\x80\x99 but argument is of type \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.321891] (kelo_tulip) StderrLine: {'line': b'  200 |       \x1b[01;36m\x1b[Kvoid *(*__start_routine) (void *)\x1b[m\x1b[K,\n'}
+[2.322001] (kelo_tulip) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.322111] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/osal/linux/osal.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kosal_thread_create_rt\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.322216] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/osal/linux/osal.c:129:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids passing argument 3 of \xe2\x80\x98\x1b[01m\x1b[Kpthread_create\x1b[m\x1b[K\xe2\x80\x99 between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.322325] (kelo_tulip) StderrLine: {'line': b'  129 |    ret = pthread_create(threadp, &attr, \x1b[01;35m\x1b[Kfunc\x1b[m\x1b[K, param);\n'}
+[2.322426] (kelo_tulip) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.322533] (kelo_tulip) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h:20\x1b[m\x1b[K,\n'}
+[2.322873] (kelo_tulip) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/osal/osal.h:14\x1b[m\x1b[K,\n'}
+[2.323008] (kelo_tulip) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/osal/linux/osal.c:11\x1b[m\x1b[K:\n'}
+[2.323122] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pthread.h:200:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[Kvoid * (*)(void *)\x1b[m\x1b[K\xe2\x80\x99 but argument is of type \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.323232] (kelo_tulip) StderrLine: {'line': b'  200 |       \x1b[01;36m\x1b[Kvoid *(*__start_routine) (void *)\x1b[m\x1b[K,\n'}
+[2.323338] (kelo_tulip) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.323593] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/ethercatfoe.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kecx_FOEdefinehook\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.323722] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/ethercatfoe.c:56:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.323839] (kelo_tulip) StderrLine: {'line': b'   56 |   context->FOEhook \x1b[01;35m\x1b[K=\x1b[m\x1b[K hook;\n'}
+[2.323949] (kelo_tulip) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.324061] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/ethercatconfig.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kecx_config_find_mappings\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.324162] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/ethercatconfig.c:864:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids passing argument 3 of \xe2\x80\x98\x1b[01m\x1b[Kosal_thread_create\x1b[m\x1b[K\xe2\x80\x99 between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.324255] (kelo_tulip) StderrLine: {'line': b'  864 |                \x1b[01;35m\x1b[K&ecx_mapper_thread\x1b[m\x1b[K, &(ecx_mapt[thrn]));\n'}
+[2.324360] (kelo_tulip) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324465] (kelo_tulip) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/ethercatconfig.c:16\x1b[m\x1b[K:\n'}
+[2.324583] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/osal/osal.h:48:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 but argument is of type \xe2\x80\x98\x1b[01m\x1b[Kvoid (*)(void *)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.324693] (kelo_tulip) StderrLine: {'line': b'   48 | int osal_thread_create(void *thandle, int stacksize, \x1b[01;36m\x1b[Kvoid *func\x1b[m\x1b[K, void *param);\n'}
+[2.324797] (kelo_tulip) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.331608] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/soem/ethercatmain.c:2048:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C does not allow extra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 outside of a function [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.331963] (kelo_tulip) StderrLine: {'line': b' 2048 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.332165] (kelo_tulip) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.354082] (kelo_tulip) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object src/soem/CMakeFiles/soem.dir/oshw/linux/oshw.c.o\x1b[0m\n'}
+[2.406931] (-) TimerEvent: {}
+[2.438952] (robile_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.452865] (kelo_tulip) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C static library libsoem.a\x1b[0m\n'}
+[2.461140] (robile_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[2.466001] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.475637] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.477718] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.478121] (robile_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.481396] (kelo_tulip) StdoutLine: {'line': b'[ 70%] Built target soem\n'}
+[2.482493] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.493740] (robile_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.507029] (-) TimerEvent: {}
+[2.522400] (robile_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.531470] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.540125] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.547132] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.547319] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.552609] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.552749] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.557698] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.557888] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.563601] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.563770] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.569564] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.569677] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.574851] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.607145] (-) TimerEvent: {}
+[2.674661] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.676396] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[2.676814] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.690520] (robile_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[2.698890] (robile_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.702070] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.707228] (-) TimerEvent: {}
+[2.713203] (robile_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[2.741699] (robile_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.746641] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.757847] (robile_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[2.788100] (robile_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.789901] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.790268] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.804749] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.807308] (-) TimerEvent: {}
+[2.808098] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.818648] (robile_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[2.846376] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.848396] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[2.848740] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.849082] (robile_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.850389] (robile_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.851527] (robile_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.858584] (robile_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.860012] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[2.860371] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.860612] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.863089] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[2.863425] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.907462] (-) TimerEvent: {}
+[2.925687] (robile_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[2.931830] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.942301] (robile_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[2.968340] (robile_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.972492] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.982387] (robile_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[3.007552] (-) TimerEvent: {}
+[3.008931] (robile_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.009332] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.009753] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[3.010083] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.012552] (robile_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/rolling/share/gazebo_ros_pkgs/cmake)\n'}
+[3.013462] (robile_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.0.0 (/opt/ros/rolling/share/geometry_msgs/cmake)\n'}
+[3.047347] (robile_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.0.0 (/opt/ros/rolling/share/nav_msgs/cmake)\n'}
+[3.107667] (-) TimerEvent: {}
+[3.117746] (robile_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.0.0 (/opt/ros/rolling/share/sensor_msgs/cmake)\n'}
+[3.187247] (robile_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.21.0 (/opt/ros/rolling/share/tf2/cmake)\n'}
+[3.207768] (-) TimerEvent: {}
+[3.256968] (robile_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.259307] (robile_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[3.261014] (robile_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/shaxpy/colcon_ws_AMR/build/robile_gazebo\n'}
+[3.270034] (robile_gazebo) CommandEnded: {'returncode': 0}
+[3.270959] (robile_gazebo) JobProgress: {'identifier': 'robile_gazebo', 'progress': 'build'}
+[3.271277] (robile_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'shaxpy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/shaxpy'), ('CONDA_SHLVL', '0'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/shaxpy/colcon_ws_AMR/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5900'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'shaxpy'), ('JOURNAL_STREAM', '8:40832'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '1fc9d40a890748fb8b2a741a899c06c6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/shaxpy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/shaxpy'), ('AMENT_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install/robile_description:/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling'), ('CONDA_PYTHON_EXE', '/home/shaxpy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shaxpy/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install/robile_description:/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling')]), 'shell': False}
+[3.305444] (robile_gazebo) CommandEnded: {'returncode': 0}
+[3.308047] (-) TimerEvent: {}
+[3.321690] (robile_gazebo) JobProgress: {'identifier': 'robile_gazebo', 'progress': 'install'}
+[3.323440] (robile_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo'], 'cwd': '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'shaxpy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/shaxpy'), ('CONDA_SHLVL', '0'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/shaxpy/colcon_ws_AMR/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5900'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'shaxpy'), ('JOURNAL_STREAM', '8:40832'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '1fc9d40a890748fb8b2a741a899c06c6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/shaxpy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/shaxpy'), ('AMENT_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install/robile_description:/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling'), ('CONDA_PYTHON_EXE', '/home/shaxpy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shaxpy/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install/robile_description:/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling')]), 'shell': False}
+[3.330437] (robile_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.330667] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//config\n'}
+[3.330775] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//config/rviz\n'}
+[3.330834] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_rolling.rviz\n'}
+[3.330927] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//config/doxygen\n'}
+[3.331052] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//config/doxygen/Doxyfile.in\n'}
+[3.331109] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//launch\n'}
+[3.331159] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch.py\n'}
+[3.331238] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/ament_index/resource_index/package_run_dependencies/robile_gazebo\n'}
+[3.331315] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/ament_index/resource_index/parent_prefix_path/robile_gazebo\n'}
+[3.331429] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.sh\n'}
+[3.331510] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.dsv\n'}
+[3.331606] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/environment/path.sh\n'}
+[3.331691] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/environment/path.dsv\n'}
+[3.331776] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/local_setup.bash\n'}
+[3.331886] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/local_setup.sh\n'}
+[3.331969] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/local_setup.zsh\n'}
+[3.332051] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/local_setup.dsv\n'}
+[3.332131] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/package.dsv\n'}
+[3.332209] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/ament_index/resource_index/packages/robile_gazebo\n'}
+[3.332289] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.332371] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig.cmake\n'}
+[3.332457] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig-version.cmake\n'}
+[3.332533] (robile_gazebo) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/package.xml\n'}
+[3.333725] (robile_gazebo) CommandEnded: {'returncode': 0}
+[3.377922] (robile_gazebo) JobEnded: {'identifier': 'robile_gazebo', 'rc': 0}
+[3.408158] (-) TimerEvent: {}
+[3.508463] (-) TimerEvent: {}
+[3.608778] (-) TimerEvent: {}
+[3.709039] (-) TimerEvent: {}
+[3.809338] (-) TimerEvent: {}
+[3.909663] (-) TimerEvent: {}
+[4.009945] (-) TimerEvent: {}
+[4.064520] (kelo_tulip) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX static library libtulip_velocity_controller.a\x1b[0m\n'}
+[4.105185] (kelo_tulip) StdoutLine: {'line': b'[ 75%] Built target tulip_velocity_controller\n'}
+[4.110027] (-) TimerEvent: {}
+[4.112846] (kelo_tulip) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target platform_driver\x1b[0m\n'}
+[4.210212] (-) TimerEvent: {}
+[4.237320] (kelo_tulip) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/platform_driver.dir/src/EtherCATModule.cpp.o\x1b[0m\n'}
+[4.237582] (kelo_tulip) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/platform_driver.dir/src/PlatformDriver.cpp.o\x1b[0m\n'}
+[4.242103] (kelo_tulip) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/platform_driver.dir/src/modules/RobileMasterBattery.cpp.o\x1b[0m\n'}
+[4.242290] (kelo_tulip) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/platform_driver.dir/src/PlatformDriverROS.cpp.o\x1b[0m\n'}
+[4.252206] (kelo_tulip) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/EtherCATModule.h:48\x1b[m\x1b[K,\n'}
+[4.252412] (kelo_tulip) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/EtherCATModule.cpp:44\x1b[m\x1b[K:\n'}
+[4.252493] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:493:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.252567] (kelo_tulip) StderrLine: {'line': b'  493 |       \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[4.252648] (kelo_tulip) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.310338] (-) TimerEvent: {}
+[4.410688] (-) TimerEvent: {}
+[4.511016] (-) TimerEvent: {}
+[4.595168] (kelo_tulip) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/PlatformDriver.h:49\x1b[m\x1b[K,\n'}
+[4.595370] (kelo_tulip) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/PlatformDriver.cpp:44\x1b[m\x1b[K:\n'}
+[4.595445] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:493:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.595503] (kelo_tulip) StderrLine: {'line': b'  493 |       \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[4.595554] (kelo_tulip) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.611151] (-) TimerEvent: {}
+[4.697143] (kelo_tulip) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/PlatformDriver.h:49\x1b[m\x1b[K,\n'}
+[4.697313] (kelo_tulip) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/PlatformDriverROS.cpp:44\x1b[m\x1b[K:\n'}
+[4.697380] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:493:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.697438] (kelo_tulip) StderrLine: {'line': b'  493 |       \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[4.697491] (kelo_tulip) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.711255] (-) TimerEvent: {}
+[4.745197] (kelo_tulip) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/EtherCATModule.h:48\x1b[m\x1b[K,\n'}
+[4.745432] (kelo_tulip) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/modules/RobileMasterBattery.h:48\x1b[m\x1b[K,\n'}
+[4.745502] (kelo_tulip) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:45\x1b[m\x1b[K:\n'}
+[4.745580] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:493:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.745646] (kelo_tulip) StderrLine: {'line': b'  493 |       \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[4.745703] (kelo_tulip) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.811356] (-) TimerEvent: {}
+[4.911680] (-) TimerEvent: {}
+[5.012053] (-) TimerEvent: {}
+[5.112364] (-) TimerEvent: {}
+[5.212677] (-) TimerEvent: {}
+[5.312992] (-) TimerEvent: {}
+[5.413336] (-) TimerEvent: {}
+[5.513639] (-) TimerEvent: {}
+[5.558775] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool kelo::RobileMasterBattery::step()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.559011] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:87:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kinput\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.559080] (kelo_tulip) StderrLine: {'line': b'   87 |   RobileMasterBatteryProcessDataInput* \x1b[01;35m\x1b[Kinput\x1b[m\x1b[K = (RobileMasterBatteryProcessDataInput*) ecx_slaves[slaveNumber].inputs;\n'}
+[5.559141] (kelo_tulip) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.559199] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid kelo::RobileMasterBattery::shutdown(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.559266] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:141:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kseconds\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.559323] (kelo_tulip) StderrLine: {'line': b'  141 | void RobileMasterBattery::shutdown(\x1b[01;35m\x1b[Kint seconds\x1b[m\x1b[K) {\n'}
+[5.559379] (kelo_tulip) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.605158] (kelo_tulip) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/ethercat.h:22\x1b[m\x1b[K,\n'}
+[5.605386] (kelo_tulip) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/PlatformDriver.cpp:48\x1b[m\x1b[K:\n'}
+[5.605457] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h:166:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.605519] (kelo_tulip) StderrLine: {'line': b'  166 |    uint8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[5.605576] (kelo_tulip) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.613826] (-) TimerEvent: {}
+[5.623591] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/PlatformDriver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid kelo::PlatformDriver::reconnectSlave(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.623796] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/PlatformDriver.cpp:346:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kslave\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.623864] (kelo_tulip) StderrLine: {'line': b'  346 | void PlatformDriver::reconnectSlave(\x1b[01;35m\x1b[Kint slave\x1b[m\x1b[K) {\n'}
+[5.623923] (kelo_tulip) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[5.627504] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/PlatformDriver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid kelo::PlatformDriver::ethercatHandler()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.627649] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/PlatformDriver.cpp:514:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kok\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.627746] (kelo_tulip) StderrLine: {'line': b'  514 |    bool \x1b[01;35m\x1b[Kok\x1b[m\x1b[K = modules[i]->step();\n'}
+[5.627849] (kelo_tulip) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.713924] (-) TimerEvent: {}
+[5.814220] (-) TimerEvent: {}
+[5.914562] (-) TimerEvent: {}
+[6.014914] (-) TimerEvent: {}
+[6.032379] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/PlatformDriver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double> kelo::PlatformDriver::getEncoderValue(unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.032613] (kelo_tulip) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shaxpy/colcon_ws_AMR/src/kelo_tulip/src/PlatformDriver.cpp:547:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[6.032718] (kelo_tulip) StderrLine: {'line': b'  547 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[6.032844] (kelo_tulip) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.115019] (-) TimerEvent: {}
+[6.215319] (-) TimerEvent: {}
+[6.315580] (-) TimerEvent: {}
+[6.415856] (-) TimerEvent: {}
+[6.516138] (-) TimerEvent: {}
+[6.616491] (-) TimerEvent: {}
+[6.716801] (-) TimerEvent: {}
+[6.817268] (-) TimerEvent: {}
+[6.917606] (-) TimerEvent: {}
+[7.017917] (-) TimerEvent: {}
+[7.118165] (-) TimerEvent: {}
+[7.218429] (-) TimerEvent: {}
+[7.318716] (-) TimerEvent: {}
+[7.419022] (-) TimerEvent: {}
+[7.519279] (-) TimerEvent: {}
+[7.619588] (-) TimerEvent: {}
+[7.719883] (-) TimerEvent: {}
+[7.820167] (-) TimerEvent: {}
+[7.920427] (-) TimerEvent: {}
+[8.020718] (-) TimerEvent: {}
+[8.121051] (-) TimerEvent: {}
+[8.221320] (-) TimerEvent: {}
+[8.321641] (-) TimerEvent: {}
+[8.421947] (-) TimerEvent: {}
+[8.522240] (-) TimerEvent: {}
+[8.622510] (-) TimerEvent: {}
+[8.722810] (-) TimerEvent: {}
+[8.823120] (-) TimerEvent: {}
+[8.923402] (-) TimerEvent: {}
+[9.023714] (-) TimerEvent: {}
+[9.123986] (-) TimerEvent: {}
+[9.224257] (-) TimerEvent: {}
+[9.324530] (-) TimerEvent: {}
+[9.424817] (-) TimerEvent: {}
+[9.525099] (-) TimerEvent: {}
+[9.625373] (-) TimerEvent: {}
+[9.725629] (-) TimerEvent: {}
+[9.825976] (-) TimerEvent: {}
+[9.926336] (-) TimerEvent: {}
+[10.026604] (-) TimerEvent: {}
+[10.126889] (-) TimerEvent: {}
+[10.227153] (-) TimerEvent: {}
+[10.327441] (-) TimerEvent: {}
+[10.427696] (-) TimerEvent: {}
+[10.527958] (-) TimerEvent: {}
+[10.628271] (-) TimerEvent: {}
+[10.728544] (-) TimerEvent: {}
+[10.828822] (-) TimerEvent: {}
+[10.929098] (-) TimerEvent: {}
+[11.029433] (-) TimerEvent: {}
+[11.129752] (-) TimerEvent: {}
+[11.230031] (-) TimerEvent: {}
+[11.330328] (-) TimerEvent: {}
+[11.430631] (-) TimerEvent: {}
+[11.530929] (-) TimerEvent: {}
+[11.631186] (-) TimerEvent: {}
+[11.731443] (-) TimerEvent: {}
+[11.831702] (-) TimerEvent: {}
+[11.931969] (-) TimerEvent: {}
+[12.032231] (-) TimerEvent: {}
+[12.132485] (-) TimerEvent: {}
+[12.232830] (-) TimerEvent: {}
+[12.333134] (-) TimerEvent: {}
+[12.433397] (-) TimerEvent: {}
+[12.533692] (-) TimerEvent: {}
+[12.634008] (-) TimerEvent: {}
+[12.734339] (-) TimerEvent: {}
+[12.834695] (-) TimerEvent: {}
+[12.934949] (-) TimerEvent: {}
+[13.035207] (-) TimerEvent: {}
+[13.135462] (-) TimerEvent: {}
+[13.235721] (-) TimerEvent: {}
+[13.335988] (-) TimerEvent: {}
+[13.436253] (-) TimerEvent: {}
+[13.536544] (-) TimerEvent: {}
+[13.636812] (-) TimerEvent: {}
+[13.737110] (-) TimerEvent: {}
+[13.837422] (-) TimerEvent: {}
+[13.937735] (-) TimerEvent: {}
+[14.038016] (-) TimerEvent: {}
+[14.138310] (-) TimerEvent: {}
+[14.238747] (-) TimerEvent: {}
+[14.339406] (-) TimerEvent: {}
+[14.439720] (-) TimerEvent: {}
+[14.540047] (-) TimerEvent: {}
+[14.640330] (-) TimerEvent: {}
+[14.740679] (-) TimerEvent: {}
+[14.840955] (-) TimerEvent: {}
+[14.941229] (-) TimerEvent: {}
+[15.041578] (-) TimerEvent: {}
+[15.141895] (-) TimerEvent: {}
+[15.242180] (-) TimerEvent: {}
+[15.342436] (-) TimerEvent: {}
+[15.442785] (-) TimerEvent: {}
+[15.543272] (-) TimerEvent: {}
+[15.643539] (-) TimerEvent: {}
+[15.743803] (-) TimerEvent: {}
+[15.844066] (-) TimerEvent: {}
+[15.944338] (-) TimerEvent: {}
+[16.044653] (-) TimerEvent: {}
+[16.144942] (-) TimerEvent: {}
+[16.245270] (-) TimerEvent: {}
+[16.345545] (-) TimerEvent: {}
+[16.445820] (-) TimerEvent: {}
+[16.546127] (-) TimerEvent: {}
+[16.646418] (-) TimerEvent: {}
+[16.746691] (-) TimerEvent: {}
+[16.846956] (-) TimerEvent: {}
+[16.947280] (-) TimerEvent: {}
+[17.047588] (-) TimerEvent: {}
+[17.147853] (-) TimerEvent: {}
+[17.248164] (-) TimerEvent: {}
+[17.348532] (-) TimerEvent: {}
+[17.448816] (-) TimerEvent: {}
+[17.549079] (-) TimerEvent: {}
+[17.649332] (-) TimerEvent: {}
+[17.749621] (-) TimerEvent: {}
+[17.849958] (-) TimerEvent: {}
+[17.950218] (-) TimerEvent: {}
+[18.050512] (-) TimerEvent: {}
+[18.151162] (-) TimerEvent: {}
+[18.251424] (-) TimerEvent: {}
+[18.351688] (-) TimerEvent: {}
+[18.451995] (-) TimerEvent: {}
+[18.552291] (-) TimerEvent: {}
+[18.652564] (-) TimerEvent: {}
+[18.752896] (-) TimerEvent: {}
+[18.853184] (-) TimerEvent: {}
+[18.953511] (-) TimerEvent: {}
+[19.053818] (-) TimerEvent: {}
+[19.076655] (kelo_tulip) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable platform_driver\x1b[0m\n'}
+[19.153942] (-) TimerEvent: {}
+[19.254391] (-) TimerEvent: {}
+[19.354755] (-) TimerEvent: {}
+[19.455072] (-) TimerEvent: {}
+[19.555343] (-) TimerEvent: {}
+[19.655618] (-) TimerEvent: {}
+[19.755879] (-) TimerEvent: {}
+[19.856214] (-) TimerEvent: {}
+[19.942699] (kelo_tulip) StdoutLine: {'line': b'[100%] Built target platform_driver\n'}
+[19.956158] (kelo_tulip) CommandEnded: {'returncode': 0}
+[19.956685] (-) TimerEvent: {}
+[19.989645] (kelo_tulip) JobProgress: {'identifier': 'kelo_tulip', 'progress': 'install'}
+[19.990073] (kelo_tulip) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shaxpy/colcon_ws_AMR/build/kelo_tulip'], 'cwd': '/home/shaxpy/colcon_ws_AMR/build/kelo_tulip', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'shaxpy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/shaxpy'), ('CONDA_SHLVL', '0'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/shaxpy/colcon_ws_AMR/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5900'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shaxpy/colcon_ws_AMR/install:/home/shaxpy/amr_first_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'shaxpy'), ('JOURNAL_STREAM', '8:40832'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shaxpy/anaconda3/condabin:/opt/ros/rolling/bin:/home/shaxpy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shaxpy-Victus:@/tmp/.ICE-unix/2123,unix/Shaxpy-Victus:/tmp/.ICE-unix/2123'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '1fc9d40a890748fb8b2a741a899c06c6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/shaxpy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/shaxpy'), ('AMENT_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling'), ('CONDA_PYTHON_EXE', '/home/shaxpy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a3e57414-9b57-42e9-a0f6-d1c2e713bcb1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shaxpy/colcon_ws_AMR/build/kelo_tulip'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shaxpy/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/opt/ros/rolling')]), 'shell': False}
+[20.002029] (kelo_tulip) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.002346] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/lib/kelo_tulip/platform_driver\n'}
+[20.007820] (kelo_tulip) StdoutLine: {'line': b'-- Set runtime path of "/home/shaxpy/colcon_ws_AMR/install/kelo_tulip/lib/kelo_tulip/platform_driver" to ""\n'}
+[20.007965] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/lib/libtulip_velocity_controller.a\n'}
+[20.008366] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include\n'}
+[20.008486] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip\n'}
+[20.008569] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/EtherCATModule.h\n'}
+[20.008627] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/modules\n'}
+[20.008679] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/modules/RobileMasterBattery.h\n'}
+[20.008741] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/KeloDriveAPI.h\n'}
+[20.008867] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/VelocityPlatformController.h\n'}
+[20.008933] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/Utils.h\n'}
+[20.008987] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/WheelConfig.h\n'}
+[20.009040] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/Structs.h\n'}
+[20.009126] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/PlatformDriver.h\n'}
+[20.009178] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem\n'}
+[20.009258] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatdc.h\n'}
+[20.009319] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatsoe.h\n'}
+[20.009365] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h\n'}
+[20.009412] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfiglist.h\n'}
+[20.009473] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatmain.h\n'}
+[20.009519] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatcoe.h\n'}
+[20.009567] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercat.h\n'}
+[20.009629] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfig.h\n'}
+[20.009678] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw\n'}
+[20.009726] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems\n'}
+[20.009775] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.c\n'}
+[20.009825] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.h\n'}
+[20.009947] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.h\n'}
+[20.010045] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.c\n'}
+[20.010172] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux\n'}
+[20.010222] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.c\n'}
+[20.010415] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.h\n'}
+[20.010525] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.h\n'}
+[20.010663] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.c\n'}
+[20.010805] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime\n'}
+[20.010935] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.c\n'}
+[20.011195] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.h\n'}
+[20.011360] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.h\n'}
+[20.011553] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.c\n'}
+[20.011733] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32\n'}
+[20.011905] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap\n'}
+[20.012006] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include\n'}
+[20.012096] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap.h\n'}
+[20.012216] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/bittypes.h\n'}
+[20.012335] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap\n'}
+[20.012450] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/pcap.h\n'}
+[20.012619] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/namedb.h\n'}
+[20.012761] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/sll.h\n'}
+[20.012938] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/usb.h\n'}
+[20.013138] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/vlan.h\n'}
+[20.013284] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bpf.h\n'}
+[20.013561] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bluetooth.h\n'}
+[20.013708] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Packet32.h\n'}
+[20.013937] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-bpf.h\n'}
+[20.014094] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/remote-ext.h\n'}
+[20.014257] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/ip6_misc.h\n'}
+[20.014403] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Win32-Extensions.h\n'}
+[20.014545] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-stdinc.h\n'}
+[20.014716] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-namedb.h\n'}
+[20.014879] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib\n'}
+[20.015012] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libwpcap.a\n'}
+[20.015331] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64\n'}
+[20.015441] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/wpcap.lib\n'}
+[20.015656] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/Packet.lib\n'}
+[20.015877] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/wpcap.lib\n'}
+[20.016141] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/Packet.lib\n'}
+[20.016317] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libpacket.a\n'}
+[20.016566] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.c\n'}
+[20.016838] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.h\n'}
+[20.016994] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.h\n'}
+[20.017147] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.c\n'}
+[20.017306] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk\n'}
+[20.017447] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec\n'}
+[20.017551] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.c\n'}
+[20.017737] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.h\n'}
+[20.017883] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.c\n'}
+[20.018133] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac\n'}
+[20.018271] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.h\n'}
+[20.018405] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.c\n'}
+[20.018576] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.h\n'}
+[20.018791] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.h\n'}
+[20.018951] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.c\n'}
+[20.019116] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks\n'}
+[20.019239] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.c\n'}
+[20.019486] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.h\n'}
+[20.019648] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.h\n'}
+[20.019808] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.c\n'}
+[20.019972] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercattype.h\n'}
+[20.020116] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatbase.h\n'}
+[20.020240] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal\n'}
+[20.020330] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems\n'}
+[20.020382] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal_defs.h\n'}
+[20.020502] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal.c\n'}
+[20.020652] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/linux\n'}
+[20.020791] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h\n'}
+[20.020883] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal.c\n'}
+[20.020993] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/intime\n'}
+[20.021112] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal_defs.h\n'}
+[20.021213] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal.c\n'}
+[20.021394] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32\n'}
+[20.021522] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/inttypes.h\n'}
+[20.021648] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_win32.h\n'}
+[20.021860] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/stdint.h\n'}
+[20.022050] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_defs.h\n'}
+[20.022219] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal.c\n'}
+[20.022382] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk\n'}
+[20.022496] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal_defs.h\n'}
+[20.022597] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal.c\n'}
+[20.022763] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks\n'}
+[20.022866] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal_defs.h\n'}
+[20.023021] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal.c\n'}
+[20.023236] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/osal.h\n'}
+[20.023356] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatprint.h\n'}
+[20.023480] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatfoe.h\n'}
+[20.023608] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip\n'}
+[20.023732] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/EtherCATModule.h\n'}
+[20.023870] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/modules\n'}
+[20.024016] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/modules/RobileMasterBattery.h\n'}
+[20.024167] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/KeloDriveAPI.h\n'}
+[20.024288] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/VelocityPlatformController.h\n'}
+[20.024407] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/Utils.h\n'}
+[20.024534] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/WheelConfig.h\n'}
+[20.024656] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/Structs.h\n'}
+[20.024786] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/PlatformDriver.h\n'}
+[20.024912] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem\n'}
+[20.025062] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatdc.h\n'}
+[20.025155] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatsoe.h\n'}
+[20.025343] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h\n'}
+[20.025464] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfiglist.h\n'}
+[20.025565] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatmain.h\n'}
+[20.025659] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatcoe.h\n'}
+[20.025759] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercat.h\n'}
+[20.025826] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfig.h\n'}
+[20.025914] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw\n'}
+[20.025982] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems\n'}
+[20.026059] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.c\n'}
+[20.026166] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.h\n'}
+[20.026241] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.h\n'}
+[20.026288] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.c\n'}
+[20.026387] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux\n'}
+[20.026461] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.c\n'}
+[20.026514] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.h\n'}
+[20.026610] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.h\n'}
+[20.026672] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.c\n'}
+[20.026742] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime\n'}
+[20.026840] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.c\n'}
+[20.026896] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.h\n'}
+[20.026986] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.h\n'}
+[20.027087] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.c\n'}
+[20.027148] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32\n'}
+[20.027220] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap\n'}
+[20.027295] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include\n'}
+[20.027415] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap.h\n'}
+[20.027492] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/bittypes.h\n'}
+[20.027580] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap\n'}
+[20.027696] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/pcap.h\n'}
+[20.027802] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/namedb.h\n'}
+[20.027911] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/sll.h\n'}
+[20.028002] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/usb.h\n'}
+[20.028154] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/vlan.h\n'}
+[20.028250] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bpf.h\n'}
+[20.028336] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bluetooth.h\n'}
+[20.028460] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Packet32.h\n'}
+[20.028566] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-bpf.h\n'}
+[20.028643] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/remote-ext.h\n'}
+[20.028742] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/ip6_misc.h\n'}
+[20.028845] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Win32-Extensions.h\n'}
+[20.028941] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-stdinc.h\n'}
+[20.029091] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-namedb.h\n'}
+[20.029211] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib\n'}
+[20.029324] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libwpcap.a\n'}
+[20.029406] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64\n'}
+[20.029549] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/wpcap.lib\n'}
+[20.029633] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/Packet.lib\n'}
+[20.029758] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/wpcap.lib\n'}
+[20.029833] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/Packet.lib\n'}
+[20.029902] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libpacket.a\n'}
+[20.030010] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.c\n'}
+[20.030111] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.h\n'}
+[20.030187] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.h\n'}
+[20.030261] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.c\n'}
+[20.030334] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk\n'}
+[20.030404] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec\n'}
+[20.030478] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.c\n'}
+[20.030546] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.h\n'}
+[20.030602] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.c\n'}
+[20.030695] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac\n'}
+[20.030753] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.h\n'}
+[20.030811] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.c\n'}
+[20.030873] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.h\n'}
+[20.030929] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.h\n'}
+[20.031010] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.c\n'}
+[20.031065] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks\n'}
+[20.031120] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.c\n'}
+[20.031179] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.h\n'}
+[20.031240] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.h\n'}
+[20.031295] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.c\n'}
+[20.031351] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercattype.h\n'}
+[20.031415] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatbase.h\n'}
+[20.031472] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal\n'}
+[20.031522] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems\n'}
+[20.031566] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal_defs.h\n'}
+[20.031610] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal.c\n'}
+[20.031653] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/linux\n'}
+[20.031695] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h\n'}
+[20.031737] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal.c\n'}
+[20.031779] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/intime\n'}
+[20.031821] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal_defs.h\n'}
+[20.031901] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal.c\n'}
+[20.031954] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32\n'}
+[20.032104] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/inttypes.h\n'}
+[20.032162] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_win32.h\n'}
+[20.032205] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/stdint.h\n'}
+[20.032248] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_defs.h\n'}
+[20.032292] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal.c\n'}
+[20.032411] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk\n'}
+[20.032467] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal_defs.h\n'}
+[20.032513] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal.c\n'}
+[20.032554] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks\n'}
+[20.032606] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal_defs.h\n'}
+[20.032650] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal.c\n'}
+[20.032693] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/osal/osal.h\n'}
+[20.032824] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatprint.h\n'}
+[20.032870] (kelo_tulip) StdoutLine: {'line': b'-- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/include/kelo_tulip/soem/ethercatfoe.h\n'}
+[20.032914] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/launch\n'}
+[20.032956] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/launch/example.joypad.launch.py\n'}
+[20.032998] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/launch/example.launch.py\n'}
+[20.033038] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/config\n'}
+[20.033080] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/config/robile1.yaml\n'}
+[20.033121] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/config/robile3.yaml\n'}
+[20.033163] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/config/example.yaml\n'}
+[20.033330] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/config/robile2.yaml\n'}
+[20.033376] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/config/robile4.yaml\n'}
+[20.033458] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/ament_index/resource_index/package_run_dependencies/kelo_tulip\n'}
+[20.033774] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/ament_index/resource_index/parent_prefix_path/kelo_tulip\n'}
+[20.033819] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/environment/ament_prefix_path.sh\n'}
+[20.033861] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/environment/ament_prefix_path.dsv\n'}
+[20.033902] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/environment/path.sh\n'}
+[20.039670] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/environment/path.dsv\n'}
+[20.039734] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/local_setup.bash\n'}
+[20.039784] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/local_setup.sh\n'}
+[20.039829] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/local_setup.zsh\n'}
+[20.039873] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/local_setup.dsv\n'}
+[20.039937] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/package.dsv\n'}
+[20.039979] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/ament_index/resource_index/packages/kelo_tulip\n'}
+[20.040021] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/cmake/kelo_tulipConfig.cmake\n'}
+[20.040142] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/cmake/kelo_tulipConfig-version.cmake\n'}
+[20.040247] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/share/kelo_tulip/package.xml\n'}
+[20.040417] (kelo_tulip) StdoutLine: {'line': b'-- Installing: /home/shaxpy/colcon_ws_AMR/install/kelo_tulip/lib/libsoem.a\n'}
+[20.040513] (kelo_tulip) CommandEnded: {'returncode': 0}
+[20.056825] (-) TimerEvent: {}
+[20.098247] (kelo_tulip) JobEnded: {'identifier': 'kelo_tulip', 'rc': 0}
+[20.099015] (-) EventReactorShutdown: {}

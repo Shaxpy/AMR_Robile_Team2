@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../../build/robile_new/robile_new.egg-info
+writing ../../../../build/robile_new/robile_new.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/robile_new/robile_new.egg-info/dependency_links.txt
+writing entry points to ../../../../build/robile_new/robile_new.egg-info/entry_points.txt
+writing requirements to ../../../../build/robile_new/robile_new.egg-info/requires.txt
+writing top-level names to ../../../../build/robile_new/robile_new.egg-info/top_level.txt
+writing manifest file '../../../../build/robile_new/robile_new.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/robile_new/robile_new.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/robile_new/robile_new.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shaxpy/colcon_ws_AMR/build/robile_new/build
+creating /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib
+creating /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib/robile_new
+copying robile_new/__init__.py -> /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib/robile_new
+copying robile_new/robile_new.py -> /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib/robile_new
+running install
+running install_lib
+creating /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new
+copying /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib/robile_new/__init__.py -> /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new
+copying /home/shaxpy/colcon_ws_AMR/build/robile_new/build/lib/robile_new/robile_new.py -> /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new
+byte-compiling /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new/robile_new.py to robile_new.cpython-38.pyc
+running install_data
+creating /home/shaxpy/colcon_ws_AMR/install/robile_new/share/ament_index
+creating /home/shaxpy/colcon_ws_AMR/install/robile_new/share/ament_index/resource_index
+creating /home/shaxpy/colcon_ws_AMR/install/robile_new/share/ament_index/resource_index/packages
+copying resource/robile_new -> /home/shaxpy/colcon_ws_AMR/install/robile_new/share/ament_index/resource_index/packages
+copying package.xml -> /home/shaxpy/colcon_ws_AMR/install/robile_new/share/robile_new
+running install_egg_info
+Copying ../../../../build/robile_new/robile_new.egg-info to /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/python3.8/site-packages/robile_new-0.0.0-py3.8.egg-info
+running install_scripts
+Installing motion_publisher script to /home/shaxpy/colcon_ws_AMR/install/robile_new/lib/robile_new
+writing list of installed files to '/home/shaxpy/colcon_ws_AMR/build/robile_new/install.log'

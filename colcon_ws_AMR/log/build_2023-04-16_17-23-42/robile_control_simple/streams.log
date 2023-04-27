@@ -1,0 +1,21 @@
+[1.409s] Invoking command in '/home/shaxpy/colcon_ws_AMR/src/Robile/robile_demos/robile_control_simple': PYTHONPATH=/home/shaxpy/colcon_ws_AMR/build/robile_control_simple/prefix_override:/home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_control_simple build --build-base /home/shaxpy/colcon_ws_AMR/build/robile_control_simple/build install --record /home/shaxpy/colcon_ws_AMR/build/robile_control_simple/install.log --single-version-externally-managed
+[1.600s] running egg_info
+[1.601s] writing ../../../../build/robile_control_simple/robile_control_simple.egg-info/PKG-INFO
+[1.601s] writing dependency_links to ../../../../build/robile_control_simple/robile_control_simple.egg-info/dependency_links.txt
+[1.601s] writing entry points to ../../../../build/robile_control_simple/robile_control_simple.egg-info/entry_points.txt
+[1.602s] writing requirements to ../../../../build/robile_control_simple/robile_control_simple.egg-info/requires.txt
+[1.602s] writing top-level names to ../../../../build/robile_control_simple/robile_control_simple.egg-info/top_level.txt
+[1.642s] reading manifest file '../../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'
+[1.643s] writing manifest file '../../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'
+[1.644s] running build
+[1.644s] running build_py
+[1.644s] running install
+[1.645s] running install_lib
+[1.646s] running install_data
+[1.647s] running install_egg_info
+[1.649s] removing '/home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/python3.8/site-packages/robile_control_simple-0.0.0-py3.8.egg-info' (and everything under it)
+[1.650s] Copying ../../../../build/robile_control_simple/robile_control_simple.egg-info to /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/python3.8/site-packages/robile_control_simple-0.0.0-py3.8.egg-info
+[1.651s] running install_scripts
+[1.675s] Installing circular_motion_publisher script to /home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/robile_control_simple
+[1.676s] writing list of installed files to '/home/shaxpy/colcon_ws_AMR/build/robile_control_simple/install.log'
+[1.713s] Invoked command in '/home/shaxpy/colcon_ws_AMR/src/Robile/robile_demos/robile_control_simple' returned '0': PYTHONPATH=/home/shaxpy/colcon_ws_AMR/build/robile_control_simple/prefix_override:/home/shaxpy/colcon_ws_AMR/install/robile_control_simple/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_control_simple build --build-base /home/shaxpy/colcon_ws_AMR/build/robile_control_simple/build install --record /home/shaxpy/colcon_ws_AMR/build/robile_control_simple/install.log --single-version-externally-managed

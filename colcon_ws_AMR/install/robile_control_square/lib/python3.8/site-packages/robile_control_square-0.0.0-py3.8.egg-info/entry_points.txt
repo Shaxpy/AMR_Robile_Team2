@@ -1,0 +1,3 @@
+[console_scripts]
+motion_publisher = robile_control_square.robile_control_square:main
+

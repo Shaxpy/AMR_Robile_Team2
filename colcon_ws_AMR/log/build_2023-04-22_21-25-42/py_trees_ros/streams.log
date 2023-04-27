@@ -1,0 +1,21 @@
+[1.831s] Invoking command in '/home/shaxpy/colcon_ws_AMR/src/py_trees_ros': PYTHONPATH=/home/shaxpy/colcon_ws_AMR/build/py_trees_ros/prefix_override:/home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build install --record /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/install.log --single-version-externally-managed
+[2.037s] running egg_info
+[2.037s] writing ../../build/py_trees_ros/py_trees_ros.egg-info/PKG-INFO
+[2.038s] writing dependency_links to ../../build/py_trees_ros/py_trees_ros.egg-info/dependency_links.txt
+[2.038s] writing entry points to ../../build/py_trees_ros/py_trees_ros.egg-info/entry_points.txt
+[2.039s] writing top-level names to ../../build/py_trees_ros/py_trees_ros.egg-info/top_level.txt
+[2.066s] reading manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'
+[2.067s] writing manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'
+[2.067s] running build
+[2.067s] running build_py
+[2.069s] running install
+[2.069s] running install_lib
+[2.071s] running install_data
+[2.071s] running install_egg_info
+[2.073s] removing '/home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros-2.2.2-py3.8.egg-info' (and everything under it)
+[2.073s] Copying ../../build/py_trees_ros/py_trees_ros.egg-info to /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages/py_trees_ros-2.2.2-py3.8.egg-info
+[2.073s] running install_scripts
+[2.089s] Installing py-trees-blackboard-watcher script to /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/bin
+[2.090s] Installing py-trees-tree-watcher script to /home/shaxpy/colcon_ws_AMR/install/py_trees_ros/bin
+[2.090s] writing list of installed files to '/home/shaxpy/colcon_ws_AMR/build/py_trees_ros/install.log'
+[2.126s] Invoked command in '/home/shaxpy/colcon_ws_AMR/src/py_trees_ros' returned '0': PYTHONPATH=/home/shaxpy/colcon_ws_AMR/build/py_trees_ros/prefix_override:/home/shaxpy/colcon_ws_AMR/install/py_trees_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/build install --record /home/shaxpy/colcon_ws_AMR/build/py_trees_ros/install.log --single-version-externally-managed

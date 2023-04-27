@@ -1,0 +1,5 @@
+  File "/home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages/robile_reach_goal/robile_reach_goal.py", line 82
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+

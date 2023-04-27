@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'py-trees-ros==2.2.2','console_scripts','py-trees-tree-watcher'
+__requires__ = 'py-trees-ros==2.2.2'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('py-trees-ros==2.2.2', 'console_scripts', 'py-trees-tree-watcher')()
+    )

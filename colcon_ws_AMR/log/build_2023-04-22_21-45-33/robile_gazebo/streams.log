@@ -1,0 +1,28 @@
+[0.050s] Invoking command in '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/shaxpy/colcon_ws_AMR/install/robile_description:/home/shaxpy/colcon_ws_AMR/install/robile_gazebo:/home/shaxpy/colcon_ws_AMR/install/kelo_tulip:/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/home/shaxpy/colcon_ws_AMR/install/robile_reach_goal:/home/shaxpy/colcon_ws_AMR/install/robile_new:/home/shaxpy/colcon_ws_AMR/install/robile_control_square:/home/shaxpy/colcon_ws_AMR/install/robile_control_simple:/home/shaxpy/colcon_ws_AMR/install/py_trees_ros:/opt/ros/rolling /usr/bin/cmake --build /home/shaxpy/colcon_ws_AMR/build/robile_gazebo -- -j12 -l12
+[0.100s] Invoked command in '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/shaxpy/colcon_ws_AMR/install/robile_description:/home/shaxpy/colcon_ws_AMR/install/robile_gazebo:/home/shaxpy/colcon_ws_AMR/install/kelo_tulip:/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/home/shaxpy/colcon_ws_AMR/install/robile_reach_goal:/home/shaxpy/colcon_ws_AMR/install/robile_new:/home/shaxpy/colcon_ws_AMR/install/robile_control_square:/home/shaxpy/colcon_ws_AMR/install/robile_control_simple:/home/shaxpy/colcon_ws_AMR/install/py_trees_ros:/opt/ros/rolling /usr/bin/cmake --build /home/shaxpy/colcon_ws_AMR/build/robile_gazebo -- -j12 -l12
+[0.122s] Invoking command in '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/shaxpy/colcon_ws_AMR/install/robile_description:/home/shaxpy/colcon_ws_AMR/install/robile_gazebo:/home/shaxpy/colcon_ws_AMR/install/kelo_tulip:/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/home/shaxpy/colcon_ws_AMR/install/robile_reach_goal:/home/shaxpy/colcon_ws_AMR/install/robile_new:/home/shaxpy/colcon_ws_AMR/install/robile_control_square:/home/shaxpy/colcon_ws_AMR/install/robile_control_simple:/home/shaxpy/colcon_ws_AMR/install/py_trees_ros:/opt/ros/rolling /usr/bin/cmake --install /home/shaxpy/colcon_ws_AMR/build/robile_gazebo
+[0.132s] -- Install configuration: ""
+[0.132s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//config
+[0.132s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//config/rviz
+[0.133s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_rolling.rviz
+[0.133s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//config/doxygen
+[0.133s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//config/doxygen/Doxyfile.in
+[0.133s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//launch
+[0.133s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch.py
+[0.133s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/ament_index/resource_index/package_run_dependencies/robile_gazebo
+[0.133s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/ament_index/resource_index/parent_prefix_path/robile_gazebo
+[0.133s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.sh
+[0.133s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.dsv
+[0.133s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/environment/path.sh
+[0.133s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/environment/path.dsv
+[0.134s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/local_setup.bash
+[0.134s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/local_setup.sh
+[0.134s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/local_setup.zsh
+[0.134s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/local_setup.dsv
+[0.134s] -- Installing: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/package.dsv
+[0.134s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/ament_index/resource_index/packages/robile_gazebo
+[0.134s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.134s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig.cmake
+[0.134s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig-version.cmake
+[0.134s] -- Up-to-date: /home/shaxpy/colcon_ws_AMR/install/robile_gazebo/share/robile_gazebo/package.xml
+[0.136s] Invoked command in '/home/shaxpy/colcon_ws_AMR/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/shaxpy/colcon_ws_AMR/install/robile_description:/home/shaxpy/colcon_ws_AMR/install/robile_gazebo:/home/shaxpy/colcon_ws_AMR/install/kelo_tulip:/home/shaxpy/amr_first_ws/install/robile_gazebo:/home/shaxpy/amr_first_ws/install/robile_description:/home/shaxpy/colcon_ws_AMR/install/robile_reach_goal:/home/shaxpy/colcon_ws_AMR/install/robile_new:/home/shaxpy/colcon_ws_AMR/install/robile_control_square:/home/shaxpy/colcon_ws_AMR/install/robile_control_simple:/home/shaxpy/colcon_ws_AMR/install/py_trees_ros:/opt/ros/rolling /usr/bin/cmake --install /home/shaxpy/colcon_ws_AMR/build/robile_gazebo

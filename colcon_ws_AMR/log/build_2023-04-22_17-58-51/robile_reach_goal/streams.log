@@ -1,0 +1,24 @@
+[1.532s] Invoking command in '/home/shaxpy/colcon_ws_AMR/src/Robile/robile_demos/robile_reach_goal': PYTHONPATH=/home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/prefix_override:/home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_reach_goal build --build-base /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build install --record /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/install.log --single-version-externally-managed
+[1.746s] running egg_info
+[1.747s] writing ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/PKG-INFO
+[1.747s] writing dependency_links to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/dependency_links.txt
+[1.748s] writing entry points to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/entry_points.txt
+[1.748s] writing requirements to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/requires.txt
+[1.748s] writing top-level names to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/top_level.txt
+[1.777s] reading manifest file '../../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'
+[1.778s] writing manifest file '../../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'
+[1.778s] running build
+[1.778s] running build_py
+[1.778s] copying robile_reach_goal/mycod.py -> /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build/lib/robile_reach_goal
+[1.778s] running install
+[1.779s] running install_lib
+[1.780s] copying /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build/lib/robile_reach_goal/mycod.py -> /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages/robile_reach_goal
+[1.781s] byte-compiling /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages/robile_reach_goal/mycod.py to mycod.cpython-38.pyc
+[1.783s] running install_data
+[1.783s] running install_egg_info
+[1.785s] removing '/home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages/robile_reach_goal-0.0.0-py3.8.egg-info' (and everything under it)
+[1.785s] Copying ../../../../build/robile_reach_goal/robile_reach_goal.egg-info to /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages/robile_reach_goal-0.0.0-py3.8.egg-info
+[1.786s] running install_scripts
+[1.804s] Installing robile_reach_goal script to /home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/robile_reach_goal
+[1.804s] writing list of installed files to '/home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/install.log'
+[1.833s] Invoked command in '/home/shaxpy/colcon_ws_AMR/src/Robile/robile_demos/robile_reach_goal' returned '0': PYTHONPATH=/home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/prefix_override:/home/shaxpy/colcon_ws_AMR/install/robile_reach_goal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_reach_goal build --build-base /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/build install --record /home/shaxpy/colcon_ws_AMR/build/robile_reach_goal/install.log --single-version-externally-managed
