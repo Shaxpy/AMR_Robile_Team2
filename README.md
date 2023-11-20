@@ -1,4 +1,4 @@
-# AMR_Robile_Team2
+# ROS2 - Autonomous Mobile Robot
 - ROS2 project involving advanced algebra algorithms for
   - Wall following
   - Aligning to wall
