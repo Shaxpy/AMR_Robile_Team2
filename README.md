@@ -1,5 +1,5 @@
 # AMR_Robile_Team2
-- ROS2 project involving advanced algebra based algorithms for
+- ROS2 project involving advanced algebra algorithms for
   - Wall following
   - Aligning to wall
   - Avoiding collisions
