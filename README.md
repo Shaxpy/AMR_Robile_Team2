@@ -5,5 +5,7 @@
   - Avoiding collisions
 
 - [Documentation](https://www.notion.so/shaxpy/AMR-TEAM-2-e0c2091d62ba4ed791275f145d655237?pvs=4)
-- ![DOC](docs/Doc.png)
-- ![BDD](docs/BDD.png)
+![DOC](docs/Doc.png)
+### Behaviour Decision Tree
+![BDD](docs/BDD.png)
+
